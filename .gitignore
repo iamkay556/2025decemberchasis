@@ -1,0 +1,16 @@
+# WPILib / Gradle
+.build/
+build/
+.gradle/
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# AdvantageKit
+*.wpilog
