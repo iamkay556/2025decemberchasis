@@ -39,7 +39,7 @@ public class RobotContainer {
   // Replace with CommandPS4Controller or CommandJoystick if needed
   private final CommandJoystick m_driverController = new CommandJoystick(0);
   private final CommandJoystick m_aimJoystick = new CommandJoystick(1);
-  private final swerveSub m_swerve = new swerveSub();
+  private final driveKay m_swerve = new driveKay();
 
   //private final ElevatorJustin m_elevator = new ElevatorJustin();
 

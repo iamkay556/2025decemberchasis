@@ -47,7 +47,7 @@ import swervelib.math.SwerveMath;
 import swervelib.parser.SwerveParser;
 import swervelib.telemetry.SwerveDriveTelemetry;
 import swervelib.telemetry.SwerveDriveTelemetry.TelemetryVerbosity;
-public class swerveSub extends SubsystemBase {
+public class driveKay extends SubsystemBase {
     private SwerveDrive swerveDrive;
     private NetworkTable table;
     private SwerveDrivePoseEstimator poseEstimator;
@@ -55,7 +55,7 @@ public class swerveSub extends SubsystemBase {
 
 
 
-    public swerveSub() {
+    public driveKay() {
         double maximumSpeed = Units.feetToMeters(15.5);
         File swerveJsonDirectory = new File(Filesystem.getDeployDirectory(), "swerve");
         Optional<Alliance> alliance = DriverStation.getAlliance();
